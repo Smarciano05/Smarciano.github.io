@@ -19,7 +19,6 @@ font-family: 'Poppins', sans-serif;
 7.  Experience
 8.  Profiles
 9.  Portfolio
-10. Clients
 11. Contact
 
 /*-------------------------------------
@@ -613,6 +612,81 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 /*.isotope-overlay*/
 
+/*--------------------------------------
+        10 . Projets
+--------------------------------------*/
+.stage {
+    padding: 50px 0 100px;
+    border: 1px solid #e5ebf2;
+}
+
+.stage-content {
+    padding-top: 100px;
+}
+
+/* Container around the .item elements */
+.isotope {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if they overflow */
+    gap: 30px; /* Adds spacing between items */
+}
+
+.isotope:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.isotope .item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0; /* Removed margin-bottom as gap property of flexbox is being used */
+    flex: 1 1 calc(33.333% - 30px); /* Adjust this value to control the number of items per row */
+    box-sizing: border-box;
+    display: flex; /* Ensures items are flex containers */
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Centers items horizontally */
+}
+
+.isotope .item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    transition: .5s; /* Simplified transition property */
+}
+
+.isotope .item:hover img {
+    transform: scale(1.5);
+}
+
+.isotope-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(31, 44, 108, .5);
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+    flex-direction: row;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.isotope-overlay a {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.isotope .item:hover .isotope-overlay {
+    transform: scale(1);
+    top: 0;
+}
+/*.isotope-overlay*/
+
+
 
 
 /*-------------------------------------
@@ -805,8 +879,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 160px; /* Adjust based on your design */
-    height: 250px; /* Keeps the images within a square boundary */
+    width: 150px; /* Adjust based on your design */
+    height: 200px; /* Keeps the images within a square boundary */
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
