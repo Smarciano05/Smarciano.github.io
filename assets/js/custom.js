@@ -1,127 +1,92 @@
-$(document).ready(function(){
-	"use strict";
-    
-        /*==================================
-* Author        : "ThemeSine"
-* Template Name : Khanas HTML Template
-* Version       : 1.0
-==================================== */
+
+
+// ISOTOPE FILTER
+
+jQuery(document).ready(function($){
+
+	if ( $('.iso-box-wrapper').length > 0 ) {
+
+		var $container 	= $('.iso-box-wrapper'),
+			$imgs 		= $('.iso-box img');
 
 
 
-/*=========== TABLE OF CONTENTS ===========
-1. Scroll To Top 
-2. Smooth Scroll spy
-3. Progress-bar
-4. owl carousel
-5. welcome animation support
-======================================*/
+		$container.imagesLoaded(function () {
 
-    // 1. Scroll To Top 
-		$(window).on('scroll',function () {
-			if ($(this).scrollTop() > 600) {
-				$('.return-to-top').fadeIn();
-			} else {
-				$('.return-to-top').fadeOut();
-			}
+			$container.isotope({
+				layoutMode: 'fitRows',
+				itemSelector: '.iso-box'
+			});
+
+			$imgs.load(function(){
+				$container.isotope('reLayout');
+			})
+
 		});
-		$('.return-to-top').on('click',function(){
-				$('html, body').animate({
-				scrollTop: 0
-			}, 1500);
+
+		//filter items on button click
+
+		$('.filter-wrapper li a').click(function(){
+
+			var $this = $(this), filterValue = $this.attr('data-filter');
+
+			$container.isotope({
+				filter: filterValue,
+				animationOptions: {
+					duration: 750,
+					easing: 'linear',
+					queue: false,
+				}
+			});
+
+			// don't proceed if already selected
+
+			if ( $this.hasClass('selected') ) {
+				return false;
+			}
+
+			var filter_wrapper = $this.closest('.filter-wrapper');
+			filter_wrapper.find('.selected').removeClass('selected');
+			$this.addClass('selected');
+
 			return false;
 		});
-	
-	
-	
-	// 2. Smooth Scroll spy
-		
-		$('.header-area').sticky({
-           topSpacing:0
-        });
-		
-		//=============
 
-		$('li.smooth-menu a').bind("click", function(event) {
-			event.preventDefault();
-			var anchor = $(this);
-			$('html, body').stop().animate({
-				scrollTop: $(anchor.attr('href')).offset().top - 0
-			}, 1200,'easeInOutExpo');
-		});
-		
-		$('body').scrollspy({
-			target:'.navbar-collapse',
-			offset:0
-		});
+	}
 
-	// 3. Progress-bar
-	
-		var dataToggleTooTip = $('[data-toggle="tooltip"]');
-		var progressBar = $(".progress-bar");
-		if (progressBar.length) {
-			progressBar.appear(function () {
-				dataToggleTooTip.tooltip({
-					trigger: 'manual'
-				}).tooltip('show');
-				progressBar.each(function () {
-					var each_bar_width = $(this).attr('aria-valuenow');
-					$(this).width(each_bar_width + '%');
-				});
-			});
-		}
-	
-	// 4. owl carousel
-	
-		// i. client (carousel)
-		
-			$('#client').owlCarousel({
-				items:7,
-				loop:true,
-				smartSpeed: 1000,
-				autoplay:true,
-				dots:false,
-				autoplayHoverPause:true,
-				responsive:{
-						0:{
-							items:2
-						},
-						415:{
-							items:2
-						},
-						600:{
-							items:4
-
-						},
-						1199:{
-							items:4
-						},
-						1200:{
-							items:7
-						}
-					}
-				});
-				
-				
-				$('.play').on('click',function(){
-					owl.trigger('play.owl.autoplay',[1000])
-				})
-				$('.stop').on('click',function(){
-					owl.trigger('stop.owl.autoplay')
-				})
+});
 
 
-    // 5. welcome animation support
+// MAIN NAVIGATION
 
-        $(window).load(function(){
-        	$(".header-text h2,.header-text p").removeClass("animated fadeInUp").css({'opacity':'0'});
-            $(".header-text a").removeClass("animated fadeInDown").css({'opacity':'0'});
-        });
+$('.main-navigation').onePageNav({
+	scrollThreshold: 0.2, // Adjust if Navigation highlights too early or too late
+	scrollOffset: 75, //Height of Navigation Bar
+	filter: ':not(.external)',
+	changeHash: true
+});
 
-        $(window).load(function(){
-        	$(".header-text h2,.header-text p").addClass("animated fadeInUp").css({'opacity':'0'});
-            $(".header-text a").addClass("animated fadeInDown").css({'opacity':'0'});
-        });
+/* NAVIGATION VISIBLE ON SCROLL */
+mainNav();
+$(window).scroll(function () {
+	mainNav();
+});
 
-});	
-	
+function mainNav() {
+	var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+	if (top > 40) $('.sticky-navigation').stop().animate({
+		"opacity": '1',
+		"top": '0'
+	});
+	else $('.sticky-navigation').stop().animate({
+		"opacity": '0',
+		"top": '-75'
+	});
+}
+
+
+// HIDE MOBILE MENU AFTER CLIKING ON A LINK
+
+$('.navbar-collapse a').click(function(){
+	$(".navbar-collapse").collapse('hide');
+});

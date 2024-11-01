@@ -108,50 +108,57 @@ nav.navbar.bootsnav.no-background {
     background-color: #fff;
     border: none;
 }
-
 nav.navbar.bootsnav {
     background-color: #fff;
     border-bottom: transparent;
-    box-shadow: 0 3px 15px rgba(0,0,0,.2);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+    position: fixed; /* Fixe la navbar */
+    top: 0; /* Place la navbar en haut */
+    width: 100%; /* Assure que la navbar occupe toute la largeur */
+    z-index: 1000; /* S'assure que la navbar soit au-dessus des autres éléments */
 }
 
-/*.navbar-brand*/
-.navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
+.navbar-header a.navbar-brand,
+.navbar-header a.navbar-brand:hover,
+.navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #d92cf9;
     font-size: 20px;
     font-weight: 600;
-    padding: 33px 0px 57px;
+    padding: 33px 0; /* Ajustez si nécessaire */
     text-transform: uppercase;
 }
-/*.navbar-brand*/
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
     font-size: 16px;
     font-weight: 400;
-    text-transform:uppercase;
-    -webkit-transition: 0.3s linear; 
-    -moz-transition: 0.3s linear; 
-    -ms-transition: 0.3s linear; 
-    -o-transition: 0.3s linear; 
+    text-transform: uppercase;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
     transition: 0.3s linear;
 }
-nav.navbar.bootsnav ul.nav > li > a {padding: 35px 20px;}
-nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
+nav.navbar.bootsnav ul.nav > li > a {
+    padding: 35px 20px;
+}
 
-nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
-    content: "";
+nav.navbar.bootsnav ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.nav > li > a:focus,
+nav.navbar.bootsnav ul.nav > li.active > a {
+    color: #d92cf9;
 }
-nav.navbar.bootsnav ul.nav > li.dropdown span {
-    font-size: 8px;
-    margin-left: 15px;
+
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {
+    color: #6a708e;
 }
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active > a {
+    color: #d92cf9;
+}
 /*.nav li*/
-
-
 
 /*.menu-ui-design*/
 .menu-ui-design{overflow-y:scroll;height: 350px;}
@@ -220,6 +227,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     text-transform: uppercase;
     margin: 30px 0 60px;
     letter-spacing: 1px;
+    color: #d92cf9;
 }
 .header-text a {
     width: 200px;
@@ -353,9 +361,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .education {
     background:  #f9fbfd;
     padding-top:  50px;
+
 }
 .education-horizontal-timeline {
-    padding: 80px 0;
+    padding: 90px 0;
 }
 
 /*.education-horizontal-timeline*/
@@ -389,78 +398,88 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.education-horizontal-timeline*/
 
 /*-------------------------------------
-        6.  Skills
+        8. Profiles
 --------------------------------------*/
-.skills {
-    
+.profiles {
+    padding:  50px;
+    border:  1px solid #e5ebf2;
 }
-.skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
-.section-heading h2 {
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #e5ebf2;
+/* Augmente la taille des icônes */
+.profile-txt a > i {
+    font-size: 40px; /* Augmentez cette valeur selon vos besoins */
+    line-height: 1;  /* Élimine l'espacement supplémentaire autour de l'icône */
 }
-.single-progress-txt {
+.profiles-content {padding-top: 100px;}
+.profiles-content .col-sm-3{padding:0;}
+.profile-txt {
     display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.single-progress-txt h3 {
-    width: 10%;
-    color: #a606c3;
+.single-profile {
     position: relative;
-    top: 6px;
-    left: 20px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #b2c1ce;
+    overflow:hidden;
+    -webkit-transition:background 0.5s linear;
+    -moz-transition:background 0.5s linear;
+    -ms-transition:background 0.5s linear;
+    -o-transition:background 0.5s linear;
+    transition:background 0.5s linear;
 }
-.barWrapper {
-    font-weight: 400;
+.profile-icon-name {
+    text-transform: capitalize;
+    color: #636a82;
     font-size: 16px;
-    text-transform: uppercase;
 }
-.progress {
-    border-radius:3px;
-    overflow: visible;
-    background: #e6ecf3;
-    height:8px;
-    margin-top: 15px;
-    width: 85%;
-    margin-bottom: 37px;
+.single-profile.profile-no-border{border-right:transparent;}
+.profile-border {
+    border-bottom: 1px solid #b2c1ce;
 }
-.progress-bar {
-   background: #b636ff;
-    border-radius: 3px;
-   -webkit-transition: width 1.5s ease-in-out;
-   -ms-transition: width 1.5s ease-in-out;
-   -moz-transition: width 1.5s ease-in-out;
-   -o-transition: width 1.5s ease-in-out;
-   transition: width 1.5s ease-in-out;
+.single-profile-overlay{
+    display:flex;
+    align-items:center;
+    text-transform: capitalize;
+    justify-content:center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " ";
+    width:100%;
+    height: 100%;
+    background: #d92cf9;
+    background: linear-gradient(to right, #d92cf9 0%,#b636ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d92cf9', endColorstr='#b636ff',GradientType=1 );
+    -webkit-transform:scale(0);
+    -moz-transform:scale(0);
+    -ms-transform:scale(0);
+    -o-transform:scale(0);
+    transform:scale(0);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
 }
-.tooltip{
-   position:relative;
-   float:right;
+.single-profile:hover .single-profile-overlay{
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+    top:0;
 }
-.tooltip > .tooltip-inner {
-   background-color: transparent;
-   padding: 1px 5px;
-   color: #b636ff;
-   font-weight: 500;
-   font-size: 12px;
-   border-radius: 0;
-}
-.popOver + .tooltip > .tooltip-arrow {
-   border-left: 6px solid transparent;
-   border-right: 6px solid transparent;
-   border-top: 6px solid #fff;
-   bottom: -1px;
-   transform: translateX(-50%);
-   margin-left: 0;
-}
+.single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
+.single-profile:hover .profile-border {border:transparent;}
 
 /*-------------------------------------
         7. Experience
 -------------------------------------*/
-.experience {
+#experience {
+    background:  white;
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
 }
@@ -490,12 +509,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .main-timeline:before{
     content: "";
     width: 2px;
-    height: 84%;
+    height: 86%;
     background: #b2c1ce;
     position: absolute;
-    top: 1.5%;
-    left: 45.8%;
-    z-index: -1;
+    top: 2%;
+    left: 45.9%;
+    transform: translateX(-50%); /* Center adjust */
+    z-index: 0; /* Ensure it stays behind content */
 }
 .main-timeline .timeline{
     position: relative;
@@ -517,7 +537,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     color: #636a82;
     font-size: 14px;
     font-weight: 300;
-    margin: 18px 0 20px;
+
 }
 .main-timeline .description {
     font-size: 14px;
@@ -541,153 +561,15 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*--------------------------------------
         9. Portfolio
 --------------------------------------*/
-.portfolio {
+#portfolio {
     padding: 50px 0 100px;
     border: 1px solid #e5ebf2;
+    background: #FFFFFF;
 }
 
 .portfolio-content {
     padding-top: 100px;
 }
-
-/* Container around the .item elements */
-.isotope {
-    display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line if they overflow */
-    gap: 30px; /* Adds spacing between items */
-}
-
-.isotope:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
-.isotope .item {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 0; /* Removed margin-bottom as gap property of flexbox is being used */
-    flex: 1 1 calc(33.333% - 30px); /* Adjust this value to control the number of items per row */
-    box-sizing: border-box;
-    display: flex; /* Ensures items are flex containers */
-    align-items: center; /* Centers items vertically */
-    justify-content: center; /* Centers items horizontally */
-}
-
-.isotope .item img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover; /* Ensures the image covers the area without stretching */
-    transition: .5s; /* Simplified transition property */
-}
-
-.isotope .item:hover img {
-    transform: scale(1.5);
-}
-
-.isotope-overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: rgba(31, 44, 108, .5);
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    justify-content: center;
-    flex-direction: row;
-    transform: scale(0);
-    transition: .5s;
-}
-
-.isotope-overlay a {
-    display: inline-block;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-}
-
-.isotope .item:hover .isotope-overlay {
-    transform: scale(1);
-    top: 0;
-}
-/*.isotope-overlay*/
-
-/*--------------------------------------
-        10 . Projets
---------------------------------------*/
-.stage {
-    padding: 50px 0 100px;
-    border: 1px solid #e5ebf2;
-}
-
-.stage-content {
-    padding-top: 100px;
-}
-
-/* Container around the .item elements */
-.isotope {
-    display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line if they overflow */
-    gap: 30px; /* Adds spacing between items */
-}
-
-.isotope:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
-.isotope .item {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 0; /* Removed margin-bottom as gap property of flexbox is being used */
-    flex: 1 1 calc(33.333% - 30px); /* Adjust this value to control the number of items per row */
-    box-sizing: border-box;
-    display: flex; /* Ensures items are flex containers */
-    align-items: center; /* Centers items vertically */
-    justify-content: center; /* Centers items horizontally */
-}
-
-.isotope .item img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover; /* Ensures the image covers the area without stretching */
-    transition: .5s; /* Simplified transition property */
-}
-
-.isotope .item:hover img {
-    transform: scale(1.5);
-}
-
-.isotope-overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: rgba(31, 44, 108, .5);
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    justify-content: center;
-    flex-direction: row;
-    transform: scale(0);
-    transition: .5s;
-}
-
-.isotope-overlay a {
-    display: inline-block;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-}
-
-.isotope .item:hover .isotope-overlay {
-    transform: scale(1);
-    top: 0;
-}
-/*.isotope-overlay*/
-
-
-
 
 /*-------------------------------------
         11. Contact
@@ -898,3 +780,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     object-fit: contain; /* Ensures images maintain aspect ratio */
 }
  /*========================Thank you=================
+
+
+  */
