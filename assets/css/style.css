@@ -105,7 +105,7 @@ html,body{
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
-    background-color: #fff;
+    background-color: #dce0e7;
     border: none;
 }
 nav.navbar.bootsnav {
@@ -251,7 +251,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
+#about {padding: 50px 0 100px;}
 .about-content {padding-top: 100px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
@@ -284,13 +284,16 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     content: " ";
     top: 0;
     left:  0;
-    width: 109%;
+    width: 134%;
     height:  100%;
     background: rgba(31,44,108,.3);
+
 }
 .single-about-img img {
-    max-width: 500px;
+    max-width: 400px;
     height: 468px;
+    border: 20px solid #1f2c6c;
+
 }
 .about-list-icon{
     display: flex;
@@ -299,8 +302,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 109%;
-    height: 90px;
+    width: 134%;
+    height: 100px;
     background: #1f2c6c;
 }
 /*.ab-list-icon */
@@ -359,8 +362,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 --------------------------------------*/
 
 .education {
-    background:  #f9fbfd;
+    background:  #f1f1f8;
     padding-top:  50px;
+    border-top: 5px solid #657d94;
 
 }
 .education-horizontal-timeline {
@@ -380,6 +384,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     display:  flex;
     align-items: center;
     padding: 26px 0 30px;
+
 }
 .timeline-horizontal-border i {
     font-size:  10px;
@@ -402,12 +407,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .profiles {
     padding:  50px;
-    border:  1px solid #e5ebf2;
+    border:  3px solid #ffffff;
+    border-top: 5px solid #657d94;
 }
 /* Augmente la taille des icônes */
 .profile-txt a > i {
     font-size: 40px; /* Augmentez cette valeur selon vos besoins */
     line-height: 1;  /* Élimine l'espacement supplémentaire autour de l'icône */
+    color: blueviolet;
 }
 .profiles-content {padding-top: 100px;}
 .profiles-content .col-sm-3{padding:0;}
@@ -422,7 +429,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid #b2c1ce;
+    border-right: 3px solid #657d94;
     overflow:hidden;
     -webkit-transition:background 0.5s linear;
     -moz-transition:background 0.5s linear;
@@ -437,7 +444,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-profile.profile-no-border{border-right:transparent;}
 .profile-border {
-    border-bottom: 1px solid #b2c1ce;
+    border-bottom: 2px solid #657d94;
 }
 .single-profile-overlay{
     display:flex;
@@ -449,7 +456,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     left: 0;
     content: " ";
     width:100%;
-    height: 100%;
+    height:100%;
     background: #d92cf9;
     background: linear-gradient(to right, #d92cf9 0%,#b636ff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d92cf9', endColorstr='#b636ff',GradientType=1 );
@@ -481,7 +488,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 #experience {
     background:  white;
     padding: 50px 0 100px;
-    border-top: 1px solid #e5ebf2;
+    border-top: 5px solid #657d94;
 }
 .experience-content {padding-top: 100px;}
 .single-timeline-box {margin-bottom: 75px;}
@@ -513,7 +520,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background: #b2c1ce;
     position: absolute;
     top: 2%;
-    left: 45.9%;
+    left: 51.8%;
     transform: translateX(-50%); /* Center adjust */
     z-index: 0; /* Ensure it stays behind content */
 }
@@ -561,9 +568,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*--------------------------------------
         9. Portfolio
 --------------------------------------*/
-#portfolio {
+#stage {
     padding: 50px 0 100px;
-    border: 1px solid #e5ebf2;
+    border-top: 5px solid #657d94;
     background: #FFFFFF;
 }
 
@@ -571,12 +578,24 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding-top: 100px;
 }
 
+#projet {
+    padding: 50px 0 100px;
+    border-top: 5px solid #657d94;
+    background: #FFFFFF;
+}
+
+.portfolio-content {
+    padding-top: 100px;
+}
+
+
 /*-------------------------------------
         11. Contact
 --------------------------------------*/
 .contact {
-    background: #f9fbfd;
+    background: #f1f1f8;
     padding: 50px 0 100px;
+    border-top: 5px solid #657d94;
 }
 .single-contact-box {padding-top: 100px;}
 .contact-form  .form-group {

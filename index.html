@@ -26,11 +26,8 @@
         <!-- For favicon png -->
 		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
 
-        <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-		<!--flat icon css-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<!--font-awesome.min.css-->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
 
 		<!--animate.css-->
@@ -49,7 +46,10 @@
         <!--style.css-->
         <link rel="stylesheet" href="assets/css/style.css">
 
-        <!--responsive.css-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+		<!--responsive.css-->
         <link rel="stylesheet" href="assets/css/responsive.css">
 		<link href="assets/css/main.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -85,9 +85,10 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 						<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-							<li class="smooth-menu active"><a href="#welcome-hero">Accueil</a></li>
+							<li class="smooth-menu active"><a href="#welcome-hero">Acceuil</a></li>
 							<li class="smooth-menu"><a href="#about">À propos</a></li>
-							<li class="smooth-menu"><a href="#portfolio">Portfolio</a></li>
+							<li class="smooth-menu"><a href="#stage">Stages</a></li>
+							<li class="smooth-menu"><a href="#projet">Projets</a></li>
 							<li class="smooth-menu"><a href="#contact">Contact</a></li>
 						</ul><!--/.nav -->
 					</div><!-- /.navbar-collapse -->
@@ -101,8 +102,6 @@
 
 	<div class="clearfix"></div>
 
-		</header><!-- /.top-area-->
-		<!-- top-area End -->
 
 		<!--welcome-hero start -->
 		<section id="welcome-hero" class="welcome-hero">
@@ -111,7 +110,7 @@
 					<div class="col-md-12 text-center">
 						<div class="header-text">
 							<h2>SHIREL MARCIANO <br>Bienvenue sur mon Portfolio  </h2>
-							<p>Etudiante en BTS SIO </p>
+							<p>Etudiante en BTS SIO (option SLAM) </p>
 							<a href="#about">En savoir plus</a>
 						</div><!--/.header-text-->
 					</div><!--/.col-->
@@ -157,41 +156,34 @@
 									</div>
 								</div>
 								<br>
-								<a href="assets/images/about/cv.pdf" class="about-link">Télécharger mon CV</a>
+								<a href="assets/images/about/cv%20(2).pdf" class="about-link">Télécharger mon CV</a>
 								<a href="#" class="about-link">Grille de compétences</a>
 							</div>
 						</div>
-						<div class="col-sm-offset-1 col-sm-5">
+						<div class="col-sm-offset-1 col-sm-3">
 							<div class="single-about-img">
-								<img src="assets/images/about/" alt="profile_image" width="500px">
+								<img src="assets/images/about/image.jpg" alt="profile_image" >
 								<div class="about-list-icon">
 									<ul>
 										<li>
 											<a href="#">
-												<i  class="fa fa-facebook" aria-hidden="true"></i>
+												<i class="fa-brands fa-facebook-f"></i>
 											</a>
 										</li><!-- / li -->
 										<li>
 											<a href="#">
-												<i  class="fa fa-dribbble" aria-hidden="true"></i>
+												<i class="fa-brands fa-twitter"></i>									</a>
+
+										</li><!-- / li -->
+										<li>
+											<a href="#">
+												<i class="fa-brands fa-linkedin-in"></i>
 											</a>
 
 										</li><!-- / li -->
 										<li>
 											<a href="#">
-												<i  class="fa fa-twitter" aria-hidden="true"></i>
-											</a>
-
-										</li><!-- / li -->
-										<li>
-											<a href="#">
-												<i  class="fa fa-linkedin" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-										<li>
-											<a href="#">
-												<i  class="fa fa-instagram" aria-hidden="true"></i>
-											</a>
+												<i class="fa-brands fa-instagram"></i>											</a>
 										</li><!-- / li -->
 
 
@@ -348,12 +340,12 @@
 								<div class="single-profile profile-no-border">
 									<div class="profile-txt">
 										<a href=""><i class="fa-solid fa-database"></i></a>
-										<div class="profile-icon-name">SQL</div>
+										<div class="profile-icon-name">MYSQL</div>
 									</div>
 									<div class="single-profile-overlay">
 										<div class="profile-txt">
 											<a href=""><i class="fa-solid fa-database"></i></a>
-											<div class="profile-icon-name">SQL</div>
+											<div class="profile-icon-name">MYSQL</div>
 										</div>
 									</div>
 								</div>
@@ -426,7 +418,7 @@
 		<!--experience start -->
 		<section id="experience" class="experience">
 			<div class="section-heading text-center">
-				<h2>experience</h2>
+				<h2>experiences</h2>
 			</div>
 			<div class="container">
 				<div class="experience-content">
@@ -556,11 +548,12 @@
 			</div>
 		</section>
 
+
 		<!-- START PORTFOLIO -->
-		<section id="portfolio" class="tm-portfolio">
+		<section id="stage" class="tm-portfolio">
 				<div class="section-heading text-center">
 					<div class="col-md-12 wow bounce">
-						<h2>Portfolio</h2>
+						<h2>Stages</h2>
 					</div>
 					<div class="container">
 						<div class="portfolio-content">
@@ -568,54 +561,18 @@
 							<div class="iso-section">
 								<ul class="filter-wrapper clearfix">
 									<li><a href="#" class="opc-main-bg selected" data-filter="*">All</a></li>
-									<li><a href="#" class="opc-main-bg" data-filter=".Stages">Stages</a></li>
-									<li><a href="#" class="opc-main-bg" data-filter=".Projets">Projets</a></li>
+									<li><a href="#" class="opc-main-bg" data-filter=".Stages">Stage 1</a></li>
+									<li><a href="#" class="opc-main-bg" data-filter=".Projets">Stage 2</a></li>
 								</ul>
 								<div class="iso-box-section">
 									<div class="iso-box-wrapper col4-iso-box">
 										<div class="iso-box All Stages col-md-3 col-sm-3 col-xs-12">
 											<div class="portfolio-thumb">
-												<img src="assets/images/portfolio-img1.jpg" class="fluid-img">
-												<div class="portfolio-info">
-													<a href="assets/images/portfolio-img1.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-													<a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-												</div>
-
-											</div>
-										</div>
-										<div class="iso-box Stages col-md-3 col-sm-3 col-xs-12">
-											<div class="portfolio-thumb">
-												<img src="assets/images/portfolio-img2.jpg" class="fluid-img" alt="portfolio img">
-												<div class="portfolio-info">
-													<a href="assets/images/portfolio-img1.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-													<a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-												</div>
+												<img src="assets/images/portfolio/img.png" class="fluid-img">
 												<div class="portfolio-overlay">
-													<h3 class="portfolio-item-title">Veliko</h3>
-												</div>
-											</div>
-										</div>
-										<div class="iso-box Stages col-md-3 col-sm-3 col-xs-12">
-											<div class="portfolio-thumb">
-												<img src="assets/images/portfolio-img3.jpg" class="fluid-img" alt="portfolio img">
-												<div class="portfolio-info">
-													<a href="assets/images/portfolio-img1.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+													<h3 class="portfolio-item-title">CRET</h3>
+													<h4>Gestionnaire de facturation </h4>
 													<a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-												</div>
-												<div class="portfolio-overlay">
-													<h3 class="portfolio-item-title">Omnilog</h3>
-												</div>
-											</div>
-										</div>
-										<div class="iso-box Projets col-md-3 col-sm-3 col-xs-12">
-											<div class="portfolio-thumb">
-												<img src="assets/images/portfolio-img4.jpg" class="fluid-img" alt="portfolio img">
-												<div class="portfolio-info">
-													<a href="assets/images/portfolio-img1.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-													<a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-												</div>
-												<div class="portfolio-overlay">
-													<h3 class="portfolio-item-title">UX Design</h3>
 												</div>
 											</div>
 										</div>
@@ -626,8 +583,36 @@
 					</div>
 				</div>
 		</section>
-		</section>
 		<!-- END PORTFOLIO -->
+
+	<!-- START PORTFOLIO -->
+	<section id="projet" class="tm-portfolio">
+		<div class="section-heading text-center">
+			<div class="col-md-12 wow bounce">
+				<h2>Projets</h2>
+			</div>
+			<div class="container">
+				<div class="portfolio-content">
+					<!-- START ISO SECTION -->
+					<div class="iso-section">
+						<div class="iso-box-section">
+							<div class="iso-box-wrapper col4-iso-box">
+								<div class="iso-box All Stages col-md-3 col-sm-3 col-xs-12">
+									<div class="portfolio-thumb">
+										<img src="assets/images/portfolio/velikoA.png" class="fluid-img">
+										<div class="portfolio-overlay">
+											<h3 class="portfolio-item-title">VELIKO</h3>
+											<a href="projetVeliko.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 		<!--contact start -->
 		<section id="contact" class="contact">
@@ -717,7 +702,7 @@
 			<div class="container">
 				<div class="hm-footer-copyright text-center">
 					<p>
-						&copy; copyright yourname. design and developed by <a href="https://www.themesine.com/">themesine</a>
+						&copy; copyright Shirel Marciano. design and developed by <a href="https://www.themesine.com/">themesine</a>
 					</p><!--/p-->
 				</div><!--/.text-center-->
 			</div><!--/.container-->

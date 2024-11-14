@@ -39,8 +39,9 @@ hr {
 
 /* START PORTFOLIO */
 .tm-portfolio {
-  background: #f8f8f8;
+  background: white;
   padding-top: 80px;
+  border: 1px solid #e5ebf2;
 }
 .tm-portfolio .container {
   width: 100%;
