@@ -5,43 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/assets/css/icomoon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about/cv (2).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/STAGECRET.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/acceuil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/ajouter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/bdd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/connecter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/inscrire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/modifier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/veliko.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/velikoA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/voir2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projetVeliko.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Synthèse Epreuve E5 2025(1) (version 1).xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/templatemo-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/about/2023 -2024-1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/about/cv.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hero-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/my-profile-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio-img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio-img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio-img6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio-img7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio-img8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/cretStage.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetVeliko.html" beforeDir="false" afterPath="$PROJECT_DIR$/projetVeliko.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/shrl0/Documents/browny-master/assets/images/portfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shrl0/Documents/browny-master/assets/images/portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\portfolio" />
@@ -131,7 +99,10 @@
       <workItem from="1730708249520" duration="7000" />
       <workItem from="1730708280729" duration="20000" />
       <workItem from="1731597730122" duration="493000" />
-      <workItem from="1731599009806" duration="7910000" />
+      <workItem from="1731599009806" duration="7962000" />
+      <workItem from="1731657149830" duration="570000" />
+      <workItem from="1731665194742" duration="3326000" />
+      <workItem from="1731669304911" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -181,7 +152,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730469412115</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <option name="closed" value="true" />
+      <created>1731625980490</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731625980490</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit">
+      <option name="closed" value="true" />
+      <created>1731626007234</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731626007234</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
