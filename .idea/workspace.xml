@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/projetOmnilog.html" beforeDir="false" afterPath="$PROJECT_DIR$/projetOmnilog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <workItem from="1731793832201" duration="338000" />
       <workItem from="1731798361293" duration="38000" />
       <workItem from="1731801977341" duration="464000" />
-      <workItem from="1731850605266" duration="10465000" />
+      <workItem from="1731850605266" duration="11218000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -193,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731878417937</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit">
+      <option name="closed" value="true" />
+      <created>1731881720876</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731881720876</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
