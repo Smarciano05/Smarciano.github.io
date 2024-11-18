@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/assets/images/Synthèse Epreuve E5 2025(1) (version 1).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/ficheclient.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/acceuil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/ajouter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/modifier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/voir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/voir2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +111,7 @@
       <workItem from="1731798361293" duration="38000" />
       <workItem from="1731801977341" duration="464000" />
       <workItem from="1731850605266" duration="11218000" />
-      <workItem from="1731924555840" duration="730000" />
+      <workItem from="1731924555840" duration="1875000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -211,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731924655993</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit">
+      <option name="closed" value="true" />
+      <created>1731926893599</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731926893599</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commit">
+      <option name="closed" value="true" />
+      <created>1731927059929</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731927059929</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
