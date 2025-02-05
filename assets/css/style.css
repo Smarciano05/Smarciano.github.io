@@ -2,6 +2,7 @@
 * Author        : "ThemeSine"
 * Template Name :  Browny  HTML Template
 * Version       : 1.0
+Page d'acceuil
 ==================================== */
 
 /*==================================
@@ -125,8 +126,9 @@ nav.navbar.bootsnav {
     color: #d92cf9;
     font-size: 20px;
     font-weight: 600;
-    padding: 33px 0; /* Ajustez si nécessaire */
+    padding: 30px 0; /* Ajustez si nécessaire */
     text-transform: uppercase;
+
 }
 
 /*.nav li*/
@@ -252,8 +254,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
         4.  About
 --------------------------------------*/
 #about {padding: 50px 0 100px;}
-.about-content {padding-top: 100px;}
-/*.single-about-txt*/
+.about-content {padding-top: 150px;}
+.h2{
+    padding-top: 50px;
+}/*.single-about-txt*/
 .single-about-txt h3 {
     font-size:18px;
     color: #3c4258;
@@ -367,8 +371,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     border-top: 5px solid #657d94;
 
 }
+.education-content {
+    padding-top: 150px;
+}
 .education-horizontal-timeline {
-    padding: 90px 0;
+    padding-bottom: 200px;
+
 }
 
 /*.education-horizontal-timeline*/
@@ -416,7 +424,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     line-height: 1;  /* Élimine l'espacement supplémentaire autour de l'icône */
     color: blueviolet;
 }
-.profiles-content {padding-top: 100px;}
+.profiles-content {padding-top: 150px;
+padding-bottom: 200px}
 .profiles-content .col-sm-3{padding:0;}
 .profile-txt {
     display: flex;
@@ -490,8 +499,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding: 50px 0 100px;
     border-top: 5px solid #657d94;
 }
-.experience-content {padding-top: 100px;}
-.single-timeline-box {margin-bottom: 75px;}
+.experience-content {padding-top: 150px;
+padding-bottom: 150px}
+.single-timeline-box {margin-bottom: 65px;}
 
 /*experience-time*/
 .experience-time {
@@ -574,9 +584,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background: #FFFFFF;
 }
 
-.portfolio-content {
-    padding-top: 100px;
+.stage-content {
+    padding-top: 140px;
+    padding-bottom: 200px;
 }
+
 
 #projet {
     padding: 50px 0 100px;
@@ -584,8 +596,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background: #FFFFFF;
 }
 
-.portfolio-content {
-    padding-top: 100px;
+.projet-content {
+    padding-top: 150px;
+    padding-bottom: 200px;
 }
 
 
@@ -780,9 +793,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px; /* Adjust based on your design */
-    height: 200px; /* Keeps the images within a square boundary */
+    width: 200px; /* Adjust based on your design */
+    height: 250px; /* Keeps the images within a square boundary */
     background-color: #fff;
+    padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -802,3 +816,19 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 
   */
+
+
+/* Style pour le conteneur header */
+.navbar-header {
+    display: flex; /* Active Flexbox */
+    align-items: center; /* Centre verticalement texte et image */
+    justify-content: space-between; /* Sépare le texte et l'image au maximum */
+
+}
+
+/* Style pour l'image */
+.logo-image {
+    max-width: 120px; /* Taille de l'image réduite */
+    height: auto; /* Garde les proportions */
+    margin-left: 890px;
+}

@@ -1,7 +1,7 @@
 /*
 
 Ultra Profile
-
+PAGE D ACCEUIL COTE PORTFOLIO
 https://templatemo.com/tm-464-ultra-profile
 
 */
@@ -147,13 +147,19 @@ hr {
 }
 
 /* ISOTOPE BOX CSS */
-.iso-box-section { width: 100%; }
+.iso-box-section {
+  width: 135%;
+  padding-top: 50px
+}
+
+
 .iso-box-wrapper {
   width: 100%;
   padding: 0;
   clear: both;
   position: relative;
 }
+
 .iso-box {
   position: relative;
   min-height: 50px;
@@ -167,17 +173,14 @@ hr {
   height: 100%;
   overflow: hidden;
 }
-.iso-box > a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
 .fluid-img {
-  width: 100%;
+  width: 200%;
   display: block;
   height: auto;
 }
+
+
+
 /* END PORTFOLIO */
 
 /* START MEDIA 980 */

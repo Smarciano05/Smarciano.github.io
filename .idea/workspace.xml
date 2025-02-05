@@ -4,7 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="commit" />
+    <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/assets/images/ConseilEtat/9356947707_ec5ec8e2e0_5k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ConseilEtat/Capture d’écran 2025-01-26 182416.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ConseilEtat/Noir et Gris Simple Classique Rapport de stage Présentation-1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ConseilEtat/conseil-d-etat-site-removebg-preview(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ConseilEtat/conseilEtat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ConseilEtat/creer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ConseilEtat/demander.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ConseilEtat/salleDispo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ConseilEtat/salleOrange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ConseilEtat/salleReserver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ConseilEtat/typeConteny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Cret/Capture d’écran 2025-01-12 153322.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Cret/Capture_d_écran_2024-06-16_220515-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Omnilog/Capture d’écran 2025-01-29 212415.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Synthèse Epreuve E5 2025(1) (version 1)(1) (7).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Veliko/Capture d’écran 2025-01-28 220539.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Veliko/Capture d’écran 2025-01-29 211306.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Veliko/PHP-logo.svg-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Veliko/apropos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Veliko/favoris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Veliko/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Veliko/map2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Veliko/profil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Veliko/reservation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/VelikoJava/Capture d’écran 2025-01-28 220539.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/VelikoJava/Capture d’écran 2025-01-29 212303.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/VelikoJava/Capture d’écran 2025-02-03 213453.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/VelikoJava/Capture d’écran 2025-02-03 213906.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/VelikoJava/Capture d’écran 2025-02-03 213930.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/VelikoJava/Capture d’écran 2025-02-03 213950.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conseilEtat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projetVelikoJava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/templatemo-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/Capture d'écran 2024-06-16 220515.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Cret/Capture d'écran 2024-06-16 220515.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/LOGO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/OMNILOG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/ajouter2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Cret/ajouter2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bdd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/connecter.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Veliko/connecter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/ficheclient.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Cret/ficheclient.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/inscrire.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Veliko/inscrire.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/modifier2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Cret/modifier2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/stage.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Omnilog/stage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/thumbnail_Logo_Omnilog.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Omnilog/thumbnail_Logo_Omnilog.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/veliko.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Veliko/veliko.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/velikoA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/voir3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Cret/voir3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetOmnilog.html" beforeDir="false" afterPath="$PROJECT_DIR$/projetOmnilog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetVeliko.html" beforeDir="false" afterPath="$PROJECT_DIR$/projetVeliko.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +71,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,28 +94,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shrl0/Documents/browny-master/assets/images/portfolio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.projetOmnilog.html.executor": "Run",
+    "JavaScript Debug.projetVeliko.html.executor": "Run",
+    "JavaScript Debug.stageConseilDetat.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/shrl0/Documents/browny-master/assets/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\portfolio" />
-      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\about" />
-      <recent name="C:\Users\shrl0\Documents\browny-master\assets\css" />
-      <recent name="C:\Users\shrl0\Documents\browny-master\assets\fonts" />
-      <recent name="C:\Users\shrl0\Downloads\browny-master\assets\images\about" />
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images" />
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\ConseilEtat" />
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Cret" />
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\VelikoJava" />
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Veliko" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Cret" />
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Veliko" />
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Omnilog" />
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\ConseilEtat" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -103,6 +179,20 @@
       <workItem from="1731801977341" duration="464000" />
       <workItem from="1731850605266" duration="11218000" />
       <workItem from="1731924555840" duration="3249000" />
+      <workItem from="1732607243532" duration="25000" />
+      <workItem from="1735657121214" duration="2560000" />
+      <workItem from="1736690104461" duration="12077000" />
+      <workItem from="1737401544558" duration="278000" />
+      <workItem from="1737491534318" duration="131000" />
+      <workItem from="1737491692901" duration="79000" />
+      <workItem from="1737491796489" duration="101000" />
+      <workItem from="1737491921092" duration="158000" />
+      <workItem from="1737574740006" duration="585000" />
+      <workItem from="1737911384946" duration="2635000" />
+      <workItem from="1738001689209" duration="1539000" />
+      <workItem from="1738613089269" duration="925000" />
+      <workItem from="1738696003948" duration="3586000" />
+      <workItem from="1738782157290" duration="6077000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />

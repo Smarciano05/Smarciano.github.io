@@ -4,9 +4,11 @@
 * Updated: Jun 29 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
+* Projet et stages
 */
 
 /*--------------------------------------------------------------
+
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
@@ -126,7 +128,7 @@ h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: 0px !important;
   }
 }
 
@@ -188,7 +190,7 @@ section,
   justify-content: center;
   align-items: center;
   max-width: 1200px;
-  margin-top: 80px; /* Ajout d'un espacement entre la navbar et la section */
+  margin-top: 90px; /* Ajout d'un espacement entre la navbar et la section */
 }
 
 /* Alignement des éléments (colonne principale) */
