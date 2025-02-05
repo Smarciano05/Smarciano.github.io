@@ -526,10 +526,10 @@ padding-bottom: 150px}
 .main-timeline:before{
     content: "";
     width: 2px;
-    height: 86%;
+    height: 90%;
     background: #b2c1ce;
     position: absolute;
-    top: 2%;
+    top: 1%;
     left: 51.8%;
     transform: translateX(-50%); /* Center adjust */
     z-index: 0; /* Ensure it stays behind content */
