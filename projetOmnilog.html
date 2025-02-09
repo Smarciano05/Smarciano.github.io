@@ -42,6 +42,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="/index.html">QUIZ</a>
+                    <img src="assets/images/Omnilog/thumbnail_Logo_Omnilog.webp" alt="Image du projet" class="img-fluid logo-image">
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->
@@ -72,7 +73,7 @@
 
                 <!-- Image placée à droite -->
                 <div class="portfolio-image ms-4"> <!-- `ms-4` pour ajouter un espace entre l'image et le texte -->
-                    <img src="assets/images/Omnilog/thumbnail_Logo_Omnilog.webp" alt="Image du projet" class="img-fluid">
+                    <img src="assets/images/Omnilog/Capture%20d’écran%202025-02-09%20151857.png" alt="Image du projet" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -222,14 +223,15 @@
 <div class="container-fluid portfolio-container" >
     <h3 class="text-center mb-4" style="font-size: 2.5rem; color: var(--accent-color); font-weight: bold;">Problèmes Rencontrés : </h3>
     <div class="row g-4 justify-content-center">
-        <div class="col-lg-10">
+        <div class="col-lg-11">
             <div class="row">
                 <!-- Problème 1 -->
                 <div class="col-md-4">
                     <div class="card p-4 rounded shadow-sm bg-light">
                         <strong>Problème de configuration de la base de données avec Docker :</strong>
                         <ul class="list-unstyled mt-2">
-                            <p> Nécessité de repartir de zéro en utilisant une image MySQL dans Docker.</p>
+                            <br>
+                            <li> - Nécessité de repartir de zéro en utilisant une image MySQL dans Docker.</li>
                         </ul>
                     </div>
                 </div>
@@ -239,7 +241,8 @@
                     <div class="card p-4 rounded shadow-sm bg-light">
                         <strong>Problème avec la soumission du formulaire :</strong>
                         <ul class="list-unstyled mt-2">
-                            <p>Une erreur est survenue concernant la propriété "réponses", qui devait être un tableau. Cela a empêché le bon traitement des données lors de la soumission du formulaire.</p>
+                            <br>
+                            <li> - Erreur : la propriété "réponses" n'était pas un tableau, empêchant le traitement du formulaire.</li>
                         </ul>
                     </div>
                 </div>
@@ -249,7 +252,8 @@
                     <div class="card p-4 rounded shadow-sm bg-light">
                         <strong>Problème de logique pour la comparaison de la bonne réponse :</strong>
                         <ul class="list-unstyled mt-2">
-                            <p>L'extraction et la comparaison de la réponse soumise par l'utilisateur avec la bonne réponse n'ont pas fonctionné, ce qui a empêché l'affichage du message approprié et l'enregistrement des résultats en base de données.</p>
+                            <br>
+                            <li> - L'extraction et la comparaison de la réponse ont échoué, empêchant l'affichage du message et l'enregistrement des résultats.</li>
                         </ul>
                     </div>
                 </div>
