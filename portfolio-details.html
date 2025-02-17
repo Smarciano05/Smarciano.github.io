@@ -27,6 +27,9 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/template.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 
 </head>
 
@@ -53,20 +56,20 @@
 
 <!-- Portfolio Details Section -->
 <section id="portfolio-details" class="portfolio-details section">
-  <div class="container-details" data-aos="fade-up" data-aos-delay="100">
+  <div class="container-details" >
     <div class="row gy-4 justify-content-center"> <!-- Ajout de la classe `justify-content-center` pour centrer les colonnes -->
       <!-- Portfolio Information -->
       <div class="col-lg-8 d-flex justify-content-between align-items-center"> <!-- Ajout de `d-flex` pour utiliser Flexbox -->
         <!-- Information Stage -->
-        <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+        <div class="portfolio-info" >
           <h3>Information Stage :</h3>
           <ul>
-            <li><strong>Nom de l'entreprise : </strong> CRET </li>
+            <li><strong>Nom de l'entreprise : </strong> CRET (Compagnie de réalisation et d'études télephonique)</li>
             <li><strong>Nom du projet</strong>: Outil d'aide à la facturation </li>
             <li><strong>Adresse</strong>: 10 rue Catulienne </li>
-            <li><strong>Forme Juridique</strong>: SARL </li>
+            <li><strong>Taille</strong>: TPE </li>
             <li><strong>Secteur d'activité</strong>: Opérateurs/Reseau Telecoms</li>
-            <li><strong>Rapport de Stage</strong>: <a href="assets/images/portfolio/STAGECRET.pdf" target="_blank">Stage CRET</a></li>
+            <li><strong>Présentation de l'entreprise </strong>: <a href="assets/images/portfolio/STAGECRET.pdf" target="_blank">Stage CRET</a></li>
           </ul>
         </div>
 
@@ -82,7 +85,7 @@
 
 
 <!-- Objective Section -->
-<div class="container-fluid portfolio-container" data-aos="fade-up" data-aos-delay="300">
+<div class="container-fluid portfolio-container" >
   <h3 class="text-center mb-4" style="font-size: 2.5rem; color: var(--accent-color); font-weight: bold;">Objectif :</h3>
   <div class="row justify-content-center">
     <div class="col-lg-7">
@@ -228,7 +231,8 @@
           <div class="card p-4 rounded shadow-sm bg-light">
             <strong>1. Problème de mise à jour des dates :</strong>
             <ul class="list-unstyled mt-2">
-              <li>- Vérification des variables récupérées.</li>
+              <li>- Problème liés à la date renouveler lors de la validation de </li>
+              <li>la facture.</li>
               <li>- Vérification du format des dates.</li>
             </ul>
           </div>
@@ -239,10 +243,8 @@
           <div class="card p-4 rounded shadow-sm bg-light">
             <strong>2. Problèmes liés à la base de données:</strong>
             <ul class="list-unstyled mt-2">
-              <li>- Vérification de la connexion à la base</li>
-              <li> de données.</li>
-              <li>- Vérification de la syntaxe des requêtes </li>
-              <li>SQL.</li>
+              <li>- Vérification de la connexion à la base de données.</li>
+              <li>- Vérification de la syntaxe des requêtes SQL. </li>
             </ul>
           </div>
         </div>
@@ -253,7 +255,7 @@
             <strong>3. Erreurs de syntaxe dans le code :</strong>
             <ul class="list-unstyled mt-2">
               <li>- Vérification des parenthèses et des points-virgules.</li>
-              <li>- Vérification de la structure des blocs </li>
+              <li>- Vérification de la structure des blocs</li>
               <li>PHP et HTML.</li>
             </ul>
           </div>
@@ -266,7 +268,7 @@
 
 
 <!-- Results Section -->
-<div class="container-fluid portfolio-container" data-aos="fade-up" data-aos-delay="600" style="background-color: white">
+<div class="container-fluid portfolio-container"  style="background-color: white">
   <h3 class="text-center mb-4" style="font-size: 2.5rem; color: var(--accent-color); font-weight: bold;">Résultats :</h3>
   <p class="text-center">Voici les résultats obtenus après l'implémentation de l'outil d'aide.</p>
 
@@ -275,19 +277,19 @@
     <div class="swiper-wrapper">
       <!-- Slide 1 -->
       <div class="swiper-slide">
-        <img src="assets/images/Cret/ficheclient.png" alt="Accueil" class="img-fluid rounded shadow">
+        <img src="assets/images/Cret/ficheclient.png" alt="Accueil" class="img-fluid rounded shadow" data-fancybox="gallery">
       </div>
       <!-- Slide 2 -->
       <div class="swiper-slide">
-        <img src="assets/images/Cret/ajouter2.png" alt="Créer" class="img-fluid rounded shadow">
+        <img src="assets/images/Cret/ajouter2.png" alt="Créer" class="img-fluid rounded shadow"  data-fancybox="gallery">
       </div>
       <!-- Slide 3 -->
       <div class="swiper-slide">
-        <img src="assets/images/Cret/modifier2.png" alt="Modifier" class="img-fluid rounded shadow">
+        <img src="assets/images/Cret/modifier2.png" alt="Modifier" class="img-fluid rounded shadow"  data-fancybox="gallery">
       </div>
       <!-- Slide 4 -->
       <div class="swiper-slide">
-        <img src="assets/images/Cret/voir3.png" alt="Voir" class="img-fluid rounded shadow">
+        <img src="assets/images/Cret/voir3.png" alt="Voir" class="img-fluid rounded shadow"  data-fancybox="gallery">
       </div>
     </div>
 
@@ -319,21 +321,21 @@
 </script>
 
 <!-- Conclusion Section -->
-<div class="container-fluid portfolio-container" data-aos="fade-up" data-aos-delay="700">
+<div class="container-fluid portfolio-container" >
   <h3 class="text-center mb-4" style="font-size: 2.5rem; color: var(--accent-color); font-weight: bold;">Conclusion :</h3>
   <div class="row justify-content-center">
-    <div class="col-lg-8">
+
       <div class="card p-4 rounded shadow-sm bg-white">
         <p class="lead" style="font-size: 1rem">
-          Ce projet m'a permis de renforcer mes compétences en gestion de base de données, développement PHP avec PDO, et manipulation des dates. J'ai appris à appliquer la logique CRUD, à valider et assainir les données, et à gérer les erreurs pour créer des applications robustes.
+          Ce projet m'a permis de renforcer mes compétences en gestion de base de données, développement PHP avec PDO, et manipulation des dates. J'ai appris à appliquer la logique CRUD et à gérer les erreurs pour créer une application robuste.
         </p>
         <p class="lead" style="font-size: 1rem">
-          Pour mon avenir, ce projet m’a permis de comprendre les exigences des applications métier, d’automatiser des processus et de gérer des données. Ces compétences sont essentielles pour ma poursuite d'études dans l'informatique.
+          Pour mon avenir, ces compétences sont essentielles pour ma poursuite d'études dans l'informatique.
         </p>
       </div>
     </div>
   </div>
-</div>
+
 
 
 

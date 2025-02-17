@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/cv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/about/cv2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conseilEtat.html" beforeDir="false" afterPath="$PROJECT_DIR$/conseilEtat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetVeliko.html" beforeDir="false" afterPath="$PROJECT_DIR$/projetVeliko.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetVelikoJava.html" beforeDir="false" afterPath="$PROJECT_DIR$/projetVelikoJava.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,32 +44,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.projetOmnilog.html.executor": "Run",
-    "JavaScript Debug.projetVeliko.html.executor": "Run",
-    "JavaScript Debug.stageConseilDetat.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/shrl0/Documents/browny-master/assets/images/Omnilog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.projetOmnilog.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.projetVeliko.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.projetVelikoJava.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.stageConseilDetat.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shrl0/Documents/browny-master/assets/images/about&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\about" />
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Omnilog" />
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\ConseilEtat" />
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images" />
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Cret" />
-      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\VelikoJava" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Cret" />
@@ -137,7 +145,13 @@
       <workItem from="1738696003948" duration="3586000" />
       <workItem from="1738782157290" duration="7509000" />
       <workItem from="1739050118246" duration="1661000" />
-      <workItem from="1739106049490" duration="4041000" />
+      <workItem from="1739106049490" duration="5147000" />
+      <workItem from="1739173835809" duration="6002000" />
+      <workItem from="1739214811055" duration="987000" />
+      <workItem from="1739277481586" duration="116000" />
+      <workItem from="1739307848283" duration="959000" />
+      <workItem from="1739735380526" duration="5946000" />
+      <workItem from="1739805101648" duration="1561000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -339,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739111629722</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="commit">
+      <option name="closed" value="true" />
+      <created>1739115206511</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1739115206511</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -64,7 +64,7 @@
 --------------------------------------------------------------*/
 body {
   color: var(--accent-color);
-  background-color: #f9fbfd;
+  background-color: #ffffff;
   font-family: var(--default-font);
 }
 
@@ -206,7 +206,8 @@ section,
   justify-content: space-between; /* Espacement entre l'image et les informations */
   align-items: center;
   width: 100%;
-  padding: 0 20px; /* Ajouter un padding horizontal si nécessaire */
+  padding-left: 160px;
+
 }
 
 /* Style de l'image (limitation de la taille et alignement) */
@@ -216,17 +217,16 @@ section,
   object-fit: contain;
 }
 
-/* Espacement entre l'image et les informations */
-.portfolio-image {
-  margin-left: 20px; /* Ajoute un espace entre l'image et les informations */
-}
+
 
 /* Style du conteneur des informations du portfolio */
 .portfolio-info {
-  padding: 30px;
+  padding: 80px;
   box-shadow: 0px 0 30px rgba(227, 191, 236, 0.96);
   width: 100%; /* S'assurer que la largeur est complète dans la colonne */
-}
+  margin-left: 200px;
+  margin-top: 30px;
+  }
 
 /* Titre de l'information de stage */
 .portfolio-info h3 {
@@ -234,6 +234,7 @@ section,
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  text-align: center;
   border-bottom: 1px solid color-mix(in srgb, var(--accent-color), transparent 85%);
 }
 
@@ -343,7 +344,7 @@ section,
 }
 
 .work-wrapper:hover {
-  border-color: #d92cf9;
+  border-color: blueviolet;
 }
 
 .work-wrapper .fa {
@@ -366,11 +367,7 @@ section,
     align-items: stretch; /* Alligne les éléments */
   }
 
-  /* S'assurer que la largeur de chaque colonne est la même */
-  .col-md-4 {
-    padding-left: 0;
-    padding-right: 0;
-  }
+
 
 }
 
