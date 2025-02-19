@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/about/cv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/about/cv2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conseilEtat.html" beforeDir="false" afterPath="$PROJECT_DIR$/conseilEtat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetVeliko.html" beforeDir="false" afterPath="$PROJECT_DIR$/projetVeliko.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetVelikoJava.html" beforeDir="false" afterPath="$PROJECT_DIR$/projetVelikoJava.html" afterDir="false" />
-    </list>
+    <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="cv" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,9 +58,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\about" />
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images" />
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Omnilog" />
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\ConseilEtat" />
-      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images" />
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Cret" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -151,7 +142,7 @@
       <workItem from="1739277481586" duration="116000" />
       <workItem from="1739307848283" duration="959000" />
       <workItem from="1739735380526" duration="5946000" />
-      <workItem from="1739805101648" duration="1561000" />
+      <workItem from="1739805101648" duration="9456000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -361,7 +352,55 @@
       <option name="project" value="LOCAL" />
       <updated>1739115206511</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="commit">
+      <option name="closed" value="true" />
+      <created>1739810460520</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1739810460520</updated>
+    </task>
+    <task id="LOCAL-00028" summary="synthese">
+      <option name="closed" value="true" />
+      <created>1739814121546</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1739814121546</updated>
+    </task>
+    <task id="LOCAL-00029" summary="cv">
+      <option name="closed" value="true" />
+      <created>1739814837862</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1739814837862</updated>
+    </task>
+    <task id="LOCAL-00030" summary="cv">
+      <option name="closed" value="true" />
+      <created>1739816733296</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1739816733297</updated>
+    </task>
+    <task id="LOCAL-00031" summary="cv">
+      <option name="closed" value="true" />
+      <created>1739825397893</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1739825397894</updated>
+    </task>
+    <task id="LOCAL-00032" summary="cv">
+      <option name="closed" value="true" />
+      <created>1739825461564</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1739825461564</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,6 +408,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="synthese" />
+    <MESSAGE value="cv" />
+    <option name="LAST_COMMIT_MESSAGE" value="cv" />
   </component>
 </project>
