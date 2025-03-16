@@ -616,6 +616,12 @@ padding-bottom: 150px}
     margin-bottom: 20px;
 
 }
+.single-contact-box p {
+    font-size: 18px; /* Tu peux mettre 20px ou + selon ce que tu préfères */
+    line-height: 1.6; /* Pour une meilleure lisibilité */
+    color: #3c4258; /* Optionnel si tu veux renforcer le contraste */
+}
+
 .contact-form .form-control {
     padding: 25px;
     font-size: 14px;
