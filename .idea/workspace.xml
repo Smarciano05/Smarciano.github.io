@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="modif">
+      <change afterPath="$PROJECT_DIR$/assets/images/about/cvImportantPDF.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/about/dreamina-2025-12-11-4146-Change the background to a solid white b....jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/cv.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/shrl0/Documents/ortmontreuil3/cybersecurité/TD1-SF-SIO2-ALT",
+    "last_opened_file_path": "C:/Users/shrl0/Documents/PROJET PERSO/browny-master/assets/images/about",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shrl0\Documents\PROJET PERSO\browny-master\assets\images\about" />
+      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Veliko" />
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\ConseilEtat" />
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images" />
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\VelikoJava" />
-      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\about" />
-      <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Omnilog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shrl0\Documents\browny-master\assets\images\Cret" />
@@ -162,14 +167,8 @@
       <workItem from="1742136434448" duration="605000" />
       <workItem from="1742235661624" duration="1256000" />
       <workItem from="1742301918349" duration="96000" />
-    </task>
-    <task id="LOCAL-00004" summary="commit">
-      <option name="closed" value="true" />
-      <created>1730469144446</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1730469144446</updated>
+      <workItem from="1742735945646" duration="888000" />
+      <workItem from="1768508460647" duration="1360000" />
     </task>
     <task id="LOCAL-00005" summary="commit">
       <option name="closed" value="true" />
@@ -555,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742238908645</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="modif">
+      <option name="closed" value="true" />
+      <created>1742736102010</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1742736102011</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
