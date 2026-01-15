@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="modif">
-      <change afterPath="$PROJECT_DIR$/assets/images/about/cvImportantPDF.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about/dreamina-2025-12-11-4146-Change the background to a solid white b....jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/about/cv.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="modif" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -168,15 +162,7 @@
       <workItem from="1742235661624" duration="1256000" />
       <workItem from="1742301918349" duration="96000" />
       <workItem from="1742735945646" duration="888000" />
-      <workItem from="1768508460647" duration="1360000" />
-    </task>
-    <task id="LOCAL-00005" summary="commit">
-      <option name="closed" value="true" />
-      <created>1730469377081</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1730469377081</updated>
+      <workItem from="1768508460647" duration="1686000" />
     </task>
     <task id="LOCAL-00006" summary="commit">
       <option name="closed" value="true" />
@@ -562,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742736102011</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="modif">
+      <option name="closed" value="true" />
+      <created>1768510112844</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1768510112846</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
