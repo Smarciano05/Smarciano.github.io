@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e51f535-f80a-4bca-8899-7f0c0b30181e" name="Changes" comment="modif">
-      <change beforePath="$PROJECT_DIR$/assets/images/about/cvImportantPDF.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shrl0/Documents/PROJET PERSO/browny-master/assets/images/about&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shrl0/Documents/L3 SORBONNE/INF7-dev/filmoteca&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -164,23 +164,10 @@
       <workItem from="1742235661624" duration="1256000" />
       <workItem from="1742301918349" duration="96000" />
       <workItem from="1742735945646" duration="888000" />
-      <workItem from="1768508460647" duration="2655000" />
-    </task>
-    <task id="LOCAL-00009" summary="commit">
-      <option name="closed" value="true" />
-      <created>1731858938149</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1731858938151</updated>
-    </task>
-    <task id="LOCAL-00010" summary="commit">
-      <option name="closed" value="true" />
-      <created>1731859000775</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1731859000775</updated>
+      <workItem from="1768508460647" duration="3055000" />
+      <workItem from="1768938275282" duration="52000" />
+      <workItem from="1768991584743" duration="16000" />
+      <workItem from="1769090381676" duration="17000" />
     </task>
     <task id="LOCAL-00011" summary="commit">
       <option name="closed" value="true" />
@@ -558,7 +545,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768511006382</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="modif">
+      <option name="closed" value="true" />
+      <created>1768511194559</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1768511194559</updated>
+    </task>
+    <task id="LOCAL-00059" summary="modif">
+      <option name="closed" value="true" />
+      <created>1768511322273</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1768511322273</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
