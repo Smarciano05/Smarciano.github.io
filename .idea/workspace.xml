@@ -49,7 +49,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shrl0/Documents/L3 SORBONNE/INF7-dev/filmoteca&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shrl0/Documents/PROJET PERSO/browny-master/assets/images/about&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -168,14 +168,9 @@
       <workItem from="1768938275282" duration="52000" />
       <workItem from="1768991584743" duration="16000" />
       <workItem from="1769090381676" duration="17000" />
-    </task>
-    <task id="LOCAL-00011" summary="commit">
-      <option name="closed" value="true" />
-      <created>1731878417937</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1731878417937</updated>
+      <workItem from="1769350585469" duration="1505000" />
+      <workItem from="1769548558395" duration="7000" />
+      <workItem from="1769696349797" duration="549000" />
     </task>
     <task id="LOCAL-00012" summary="commit">
       <option name="closed" value="true" />
@@ -561,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768511322273</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="modif">
+      <option name="closed" value="true" />
+      <created>1769352744673</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1769352744674</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
